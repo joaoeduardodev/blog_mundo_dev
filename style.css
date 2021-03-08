@@ -137,7 +137,8 @@ article:hover {
 }
 
 .tags>span:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
 }
 
@@ -151,28 +152,32 @@ article:hover {
 .img3 {
     background: linear-gradient(20deg, var(--gradient-violet-start), var(--gradient-violet-end));
 }
+@media (min-width: 986px) {
+    
+    .blog-description {
+        font-size: 13px;
+        font-weight: var(--font-weight-primary-bold);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        max-width: 90vh;
+        height: 86px;
+        margin: auto;
+        transform: rotate( -90deg) translate(-50%, 50%);
+        transform-origin: 0 50%;
+        text-align: center;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: var(--color-font);
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-left: 15px;
+    }
+    
 
-.blog-description {
-    font-size: 13px;
-    font-weight: var(--font-weight-primary-bold);
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    max-width: 90vh;
-    height: 86px;
-    margin: auto;
-    transform: rotate( -90deg) translate(-50%, 50%);
-    transform-origin: 0 50%;
-    text-align: center;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: var(--color-font);
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-left: 50px;
 }
 
 .img4 {
