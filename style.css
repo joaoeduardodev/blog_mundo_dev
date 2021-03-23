@@ -79,10 +79,17 @@ body {
 }
 .itens-indicators{
     margin: -40px 5px 0px;
-    background-color: #000;
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
+    transition: all .30s;
+    border: 2px solid #fff;
+
+}
+.itens-indicators:hover{
+    background-color: #fff;
+    transform: translateY(-4px);
+    cursor: pointer;
 }
 .banner-img{
     height: 500px;
