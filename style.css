@@ -92,7 +92,7 @@ body {
     cursor: pointer;
 }
 .img-logo{
-    max-height:60px;
+    max-height:60px !important;
     margin-top: 20px;
 }
 .banner-img{
