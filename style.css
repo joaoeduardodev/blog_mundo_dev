@@ -95,6 +95,14 @@ body {
     max-height:60px !important;
     margin-top: 20px;
 }
+.publicacao-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 .banner-img{
     height: 500px;
     width: 100%;
@@ -159,6 +167,14 @@ article {
     display: flex;
     flex-direction: column;
 }
+.publicacao-conteudo{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 26px;
+    height: 100%;
+    padding: 38px 45px 38px;
+    display: flex;
+    flex-direction: column;
+}
 
 .img {
     background-repeat: no-repeat;
@@ -174,6 +190,11 @@ article:hover {
     font-size: 33px;
     font-weight: 700;
     flex: 1;
+}
+
+.publicacao-titulo {
+    font-size: 33px;
+    font-weight: 700;
 }
 
 .autor {
