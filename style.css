@@ -91,6 +91,10 @@ body {
     transform: translateY(-4px);
     cursor: pointer;
 }
+.img-logo{
+    max-height:60px;
+    margin-top: 20px;
+}
 .banner-img{
     height: 500px;
     width: 100%;
@@ -104,6 +108,33 @@ body {
     background-position: center center;
     background-size: cover;
     margin-top: 30px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-logo{
+    width: 50%;
+    float: left; 
+    height: 100%;
+
+}
+.navbar>ul{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    float: right;
+}
+.navbar>ul>li{
+    margin-left: auto;
+    align-self: center;
+    list-style: none;
+    transition: all .15s; 
+    
+}
+.navbar>ul>li:hover{
+    border-bottom: 4px solid #fff;
+    transform: translateY(-4px);
 }
 
 #artigos {
