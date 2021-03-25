@@ -241,7 +241,13 @@ article:hover {
         margin-left: 15px;
     }
     
+    
 
+}
+@media (max-width: 986px){
+    .navbar>ul,.blog-description{
+        display: none;
+    }
 }
 
 
