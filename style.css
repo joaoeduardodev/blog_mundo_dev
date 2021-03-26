@@ -211,8 +211,8 @@ article {
     margin: auto;
 }
 .publicacao-texto{
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-size: 19px;
+    line-height: 1.65;
     color: #fff;
     text-align: justify;
 }
