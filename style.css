@@ -247,16 +247,6 @@ article {
     cursor: pointer;
 }
 
-.img2 {
-    background: url('https://images.unsplash.com/photo-1515106426117-7483c8b91e9b?ixlib=rb-0.3.5&q=75&fm=jpg&crop=entropy&cs=tinysrgb&w=830&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e7f2a64b9c3918b1714161e88bb1d00c');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.img3 {
-    background: linear-gradient(20deg, var(--gradient-violet-start), var(--gradient-violet-end));
-}
 @media (min-width: 986px) {
     
     .blog-description {
