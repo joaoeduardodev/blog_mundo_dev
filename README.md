@@ -1,3 +1,4 @@
 # blog
-Blog em HTML e CSS.
+Template Blog em HTML e CSS.
 Sugestões são bem vinda :)
+
