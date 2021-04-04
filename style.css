@@ -293,8 +293,8 @@ article {
     background: linear-gradient( 0deg, var(--gradient-yellow-start), var(--gradient-yellow-end));
 }
 
-@media (min-width: 1300px) {
+/*@media (min-width: 1300px) {
     .article-col-2 {
         grid-column: 1/ span 2;
     }
-}
+}*/
